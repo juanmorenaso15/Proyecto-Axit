@@ -9,16 +9,19 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    
+
 }
 
-.priemraseccion{
+.priemraseccion {
     background-image: url(../assets/images/banner-bk.jpg);
-    padding: 50px 250px 80px 250px;
+    padding: 50px 250px 100px 250px;
+    background-repeat: no-repeat;
     color: #fff;
+    background-size: cover;
+
 }
 
-.barradenavegacion{
+.barradenavegacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,25 +29,138 @@ body {
     font-size: 30px;
 }
 
-.subprimeraseccion h1{
+.subprimeraseccion h1 {
     font-size: 70px;
     margin: 0 0 50px 0;
 }
 
-.subprimeraseccion p{
+.subprimeraseccion p {
     line-height: 2;
     font-size: 20px;
     color: #ffffffc9;
-    margin: 0 0 20px 0;
+    margin: 0 0 50px 0;
 }
 
-.botonprimeraseccion{
+.botonprimeraseccion {
 
     text-decoration: none;
-    font-size: 30px;
-    color: black;
+    font-size: 20px;
+    color: rgb(24, 44, 118);
     background-color: rgb(0, 255, 187);
     padding: 10px;
     border-radius: 20px;
+    font-weight: bold;
 
+
+}
+
+.segundaseccion {
+    background-color: rgb(255, 255, 255);
+    padding: 100px 250px 200px 250px;
+}
+
+
+.segundaseccion h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 100px 0;
+}
+
+.segundaseccionimagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subimagenessegunda {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.subimagenessegunda h3 {
+    font-size: 30px;
+}
+
+.subimagenessegunda p {
+    font-size: 20px;
+}
+
+
+.terceraseccion {
+    position: relative;
+    padding: 0 0 50px 0;
+     display: flex;
+    flex-direction: column;
+    gap: 80px; /* Más espacio entre secciones */
+    position: relative;
+
+}
+
+.terceraseccion::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%; 
+    background: rgb(59, 223, 168); 
+    z-index: -1; 
+    clip-path: polygon(0 40%, 100% 10%, 100% 100%, 0% 100%);
+
+}
+
+
+.tercera {
+    padding: 100px 250px 200px 250px;
+}
+
+.tercerotexto {
+    display: flex;
+    flex-direction: column;
+}
+
+.tercerotexto h2 {
+    font-size: 60px;
+}
+
+.tercerotexto p {
+    font-size: 15px;
+}
+
+.botonterceraseccion {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(24, 44, 118);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+
+
+.terceraimagen {
+    position: absolute;
+    margin: 0 0 0 800px;
+}
+
+.terceracuarta {
+    margin: 100px 250px 200px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terceracuartatexto h2 {
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+
+.terceracuartatexto p {
+    font-size: 15px;
+    margin: 0 0 50px 0;
 }
