@@ -316,7 +316,7 @@ body {
 }
 
 .top-fields {
-    display: flex;  
+    display: flex;
     justify-content: space-between;
     gap: 20px;
 }
@@ -364,7 +364,7 @@ body {
 }
 
 footer {
-    background-color: #0e1c3b; 
+    background-color: #0e1c3b;
     padding: 40px 0;
 }
 
@@ -392,4 +392,208 @@ footer {
     background-color: #ffffff;
     border-radius: 50%;
     padding: 10px;
+}
+
+@media screen and (min-width: 921px) and (max-width: 1279px) {
+    .priemraseccion {
+        padding: 50px 150px 100px 150px;
+    }
+
+    .segundaseccion {
+        padding: 100px 150px 200px 150px;
+    }
+
+    .subimagenessegunda {
+        margin: 0 15px;
+    }
+
+    .tercera {
+        padding: 100px 150px 200px 150px;
+    }
+
+    .terceraimagen {
+        margin: 0 0 0 650px;
+    }
+
+    .terceraimagen img {
+        width: 320px;
+        height: auto;
+    }
+
+    .terceracuarta {
+        margin: 100px 150px 200px 150px;
+    }
+
+    .cuartaimagen img {
+        width: 400px;
+        height: auto;
+    }
+
+    .bloquecuarta,
+    .bloquecuartaa {
+        margin: 100px 50px;
+    }
+
+    .subquintaseccion {
+        padding: 50px 150px;
+    }
+
+    .subsextaseccion {
+        padding: 100px 150px 90px 150px;
+    }
+
+    .footertres {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1130px) {
+    .priemraseccion {
+        padding: 50px 150px 100px 150px;
+    }
+
+    .segundaseccion {
+        padding: 100px 150px 200px 150px;
+    }
+
+    .subimagenessegunda {
+        margin: 0 15px;
+    }
+
+    .botonterceraseccion {
+        width: 30%;
+
+    }
+
+    .tercera {
+        padding: 100px 150px 200px 150px;
+    }
+
+    .terceraimagen {
+        margin: 0 0 0 400px;
+    }
+
+    .terceraimagen img {
+        width: 320px;
+        height: auto;
+    }
+
+    .terceracuarta {
+        margin: 100px 150px 200px 0px;
+    }
+
+    .bloquecuarta {
+        margin: 0 40px;
+        text-align: center;
+    }
+
+    .cuartaseccion {
+        margin: 100px 0 20px 0;
+    }
+    
+.subsextaseccion {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 920px) {
+    .priemraseccion {
+        padding: 40px 100px 80px 100px;
+    }
+
+    .barradenavegacion {
+        font-size: 24px;
+    }
+
+    .subprimeraseccion h1 {
+        font-size: 56px;
+    }
+
+    .subprimeraseccion p {
+        font-size: 18px;
+    }
+
+    .segundaseccion {
+        padding: 80px 100px 180px 100px;
+    }
+
+    .segundaseccion h2 {
+        font-size: 42px;
+    }
+
+    .subimagenessegunda {
+        margin: 0 15px;
+    }
+
+    .subimagenessegunda img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tercera {
+        padding: 80px 100px 180px 100px;
+    }
+
+      .terceraimagen {
+        margin: 0 0 0 400px;
+    }
+
+    .terceraimagen img {
+        width: 280px;
+        height: auto;
+    }
+
+    .tercerotexto h2 {
+        font-size: 48px;
+    }
+
+    .botonterceraseccion {
+        width: 25%;
+    }
+
+    .terceracuarta {
+        margin: 80px 100px 180px 100px;
+    }
+
+    .cuartaimagen img {
+        width: 350px;
+        height: auto;
+    }
+
+    .terceracuartatexto h2 {
+        font-size: 48px;
+    }
+
+    .cuartaseccion h2 {
+        font-size: 48px;
+        margin: 0 0 0 50px;
+    }
+
+    .bloquecuarta, .bloquecuartaa {
+        margin: 100px 30px;
+    }
+
+    .bloquecuartaa {
+        padding: 0 50px 30px;
+    }
+
+    .subquintaseccion {
+        padding: 40px 100px;
+    }
+
+    .subsextaseccion {
+        padding: 80px 100px;
+    }
+
+    .sextauno h2 {
+        font-size: 64px;
+    }
+
+    .footertres {
+        padding: 0 100px;
+    }
 }
