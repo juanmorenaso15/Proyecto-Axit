@@ -568,13 +568,20 @@ footer {
         font-size: 48px;
     }
 
-    .cuartaseccion h2 {
-        font-size: 48px;
-        margin: 0 0 0 50px;
+     .cuartaseccion h2 {
+        font-size: 42px;
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+
+    .subcuarta {
+        flex-direction: column;
+        gap: 50px;
     }
 
     .bloquecuarta, .bloquecuartaa {
-        margin: 100px 30px;
+        margin: 0 50px;
+        width: 80%;
     }
 
     .bloquecuartaa {
@@ -582,7 +589,10 @@ footer {
     }
 
     .subquintaseccion {
-        padding: 40px 100px;
+        flex-wrap: wrap;
+        padding: 40px 50px;
+        gap: 40px;
+        justify-content: center;
     }
 
     .subsextaseccion {
@@ -595,5 +605,168 @@ footer {
 
     .footertres {
         padding: 0 100px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .priemraseccion {
+        padding: 40px 50px 80px 50px;
+    }
+
+    .barradenavegacion {
+        font-size: 22px;
+    }
+
+    .barradenavegacion img {
+        width: 180px;
+    }
+
+    .subprimeraseccion h1 {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .subprimeraseccion p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .botonprimeraseccion {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .segundaseccion {
+        padding: 70px 50px 150px 50px;
+    }
+
+    .segundaseccion h2 {
+        font-size: 38px;
+        margin-bottom: 70px;
+    }
+
+    .segundaseccionimagenes {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .subimagenessegunda img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .subimagenessegunda h3 {
+        font-size: 26px;
+        margin: 25px 0 15px 0;
+    }
+
+    .terceraseccion::after {
+        height: 82%;
+        clip-path: polygon(0 30%, 100% 8%, 100% 100%, 0% 100%);
+    }
+
+    .tercera {
+        padding: 70px 50px 150px 50px;
+    }
+
+    .terceraimagen {
+        position: relative;
+        margin: 50px auto 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .terceraimagen img {
+        width: 400px;
+        height: auto;
+    }
+
+    .tercerotexto {
+        text-align: center;
+        align-items: center;
+    }
+
+    .tercerotexto h2 {
+        font-size: 42px;
+    }
+
+    .botonterceraseccion {
+        width: 50%;
+        margin: 30px auto 0 auto;
+    }
+
+    .terceracuarta {
+        margin: 70px 50px 150px 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cuartaimagen {
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .cuartaimagen img {
+        width: 400px;
+        height: auto;
+    }
+
+    .terceracuartatexto {
+        order: 2;
+    }
+
+    .terceracuartatexto h2 {
+        font-size: 42px;
+    }
+
+    .cuartaseccion h2 {
+        font-size: 42px;
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+
+    .subcuarta {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .bloquecuarta, .bloquecuartaa {
+        margin: 0 50px;
+        width: 80%;
+    }
+
+    .bloquecuartaa {
+        padding: 0 50px 30px;
+    }
+
+    .subquintaseccion {
+        flex-wrap: wrap;
+        padding: 40px 50px;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .subsextaseccion {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .sextauno, .sextados {
+        width: 100%;
+    }
+
+    .sextauno h2 {
+        font-size: 52px;
+        text-align: center;
+    }
+
+    .sextados {
+        padding: 30px;
+    }
+
+    .footertres {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
     }
 }
